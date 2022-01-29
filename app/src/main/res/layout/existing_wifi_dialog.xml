@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/round_corners"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/connect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="0dp"
+        android:layout_gravity="center"
+        android:text="Connect"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/coment"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <TextView
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:layout_width="250dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="10dp"
+            android:text="Connect"
+            android:background="@color/secondaryColor"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/forget_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="0dp"
+        android:layout_gravity="center"
+        android:text="Connect"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/coment"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <TextView
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:layout_width="250dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="10dp"
+            android:text="Forget"
+            android:background="#838383"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
